@@ -66,11 +66,11 @@ Undo/Redo works by pushing and popping snapshots of the linked list onto a stack
 g++ main.cpp -o texteditor
 
 
-Run:
-bash
+### Run:
+'''bash
 ./texteditor
 
-Example Use Cases
+### Example Use Cases
 Create and edit multiline notes or documents
 
 Practice and understand linked lists, file I/O, and stack-based operations
@@ -78,7 +78,7 @@ Practice and understand linked lists, file I/O, and stack-based operations
 Command-line based editing simulation for educational purposes
 
 
-Notes
+### Notes
 Make sure to use getline() twice after cin >> when mixing cin and getline to avoid input buffer issues.
 
 The default number of text lines is not restricted — works dynamically.
